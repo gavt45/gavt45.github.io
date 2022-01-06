@@ -1,0 +1,79 @@
+#credit beautifulhugo https://github.com/halogenica/beautifulhugo/blob/master/data/beautifulhugo/social.toml
+
+[[social_icons]]
+id = "email"
+url = "mailto:%s"
+title = "Email me"
+icon = "fas fa-envelope"
+
+[[social_icons]]
+id = "github"
+url = "https://github.com/%s"
+title = "GitHub"
+icon = "img/ico/gh.svg"
+
+[[social_icons]]
+id = "gitlab"
+url = "https://gitlab.com/%s"
+title = "GitLab"
+icon = "fab fa-gitlab"
+
+[[social_icons]]
+id = "twitter"
+url = "https://twitter.com/%s"
+title = "Twitter"
+icon = "img/ico/twitter.svg"
+
+[[social_icons]]
+id = "slack"
+url = "https://%s.slack.com/"
+title = "Slack"
+icon = "fab fa-slack"
+
+[[social_icons]]
+id = "reddit"
+url = "https://reddit.com/u/%s"
+title = "Reddit"
+icon = "fab fa-reddit-alien"
+
+[[social_icons]]
+id = "linkedin"
+url = "https://linkedin.com/in/%s"
+title = "LinkedIn"
+icon = "fab fa-linkedin"
+
+[[social_icons]]
+id = "instagram"
+url = "https://www.instagram.com/%s"
+title = "Instagram"
+icon = "img/ico/ig.svg"
+
+[[social_icons]]
+id = "youtube"
+url = "https://www.youtube.com/%s"
+title = "Youtube"
+icon = "fab fa-youtube"
+
+[[social_icons]]
+id = "keybase"
+url = "https://keybase.io/%s"
+title = "Keybase"
+icon = "fab fa-keybase"
+
+[[social_icons]]
+id = "vk"
+url = "https://vk.com/%s"
+title = "VK"
+icon = "fab fa-vk"
+
+[[social_icons]]
+id = "paypal"
+url = "https://paypal.me/%s"
+title = "PayPal"
+icon = "fab fa-paypal"
+
+[[social_icons]]
+id = "telegram"
+url = "https://telegram.me/%s"
+title = "Telegram"
+icon = "img/ico/tg.svg"
