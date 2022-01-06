@@ -1,7 +1,7 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'Andrey Gumirov'
-theme = 'hugo-kiera'
+theme = 'hugo-kiera-mod'
 
 copyright = '© 2022 by Andrey Gumirov. All rights reserved.'
 
