@@ -13,7 +13,7 @@ copyright = '© 2022 by Andrey Gumirov. All rights reserved.'
     telegram = "gavt45"
 
 [params]
-    tagline = "Security guy and developer"
+    tagline = "Student, developer and security researcher"
     description = "Gav's blog"
     #images = [""] #This is used for opengraph/twitter cards.
     customCSS = []  #Optional Customised CSS
