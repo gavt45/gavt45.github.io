@@ -1,0 +1,16 @@
+name = "Kiera"
+license = "MIT"
+licenselink = "https://github.com/funkydan2/hugo-kiera/blob/master/LICENSE.md"
+description = "Hugo Theme for creative and technical writing"
+homepage = "https://github.com/funkydan2/hugo-kiera"
+tags = ["blog","minimal","responsive"]
+features = ["blog","disqus","google-analytics","font-awesome"]
+min_version = "0.55.0"
+
+[author]
+  name = "Andrey Gumirov"
+  homepage = "https://github.com/gavt45"
+
+[original]
+  name = "Daniel Saunders"
+  repo = "https://github.com/funkydan2"
