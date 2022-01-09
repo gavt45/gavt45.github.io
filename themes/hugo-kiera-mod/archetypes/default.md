@@ -5,4 +5,5 @@ images = []
 tags = []
 categories = []
 draft = true
+mathjax = false
 +++
