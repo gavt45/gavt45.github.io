@@ -470,6 +470,15 @@ ul.pagination li {
   box-shadow: none;
 }
 
+.icon {
+  height: 12px;
+  width: auto;
+  margin: 0;
+  vertical-align: middle;
+  filter: brightness(0%) grayscale(100%) opacity(80%);
+  box-shadow: none;
+}
+
 /* MathJAX support */
 code.has-jax {
     -webkit-font-smoothing: antialiased;
