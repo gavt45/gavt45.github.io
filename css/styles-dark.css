@@ -27,11 +27,11 @@ time {
 }
 
 #container > * {
-  width: 700px;
+  width: 900px;
   margin: 0 auto;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
   #container > * {
     width: auto;
     margin: 0 1.2em;
@@ -467,6 +467,24 @@ ul.pagination li {
   width: auto;
   margin: 0;
   vertical-align: middle;
-  filter: brightness(0%) grayscale(100%) opacity(80%);
+  filter: brightness(0%) grayscale(100%) opacity(80%) invert(1);
   box-shadow: none;
 }
+
+.icon {
+  height: 12px;
+  width: auto;
+  margin: 0;
+  vertical-align: middle;
+  filter: brightness(0%) grayscale(100%) opacity(80%) invert(1);
+  box-shadow: none;
+}
+
+/* MathJAX support */
+code.has-jax {
+    -webkit-font-smoothing: antialiased;
+    background: inherit !important;
+    border: none !important;
+    font-size: 100%;
+}
+

@@ -1,6 +1,6 @@
 <!doctype html><html lang=en-us>
 <head>
-<title>Math - Andrey Gumirov</title>
+<title>Goodbye, calculus! - Andrey Gumirov</title>
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1">
 <meta name=description content="Gav's blog">
@@ -52,30 +52,40 @@
 </nav>
 <main>
 <article>
-<h1>Math</h1>
+<h1>Goodbye, calculus!</h1>
 <aside>
 <ul>
 <li>
-<time class=post-date datetime=2022-01-09T13:40:39+07:00>9 Jan 2022 at 13:40</time>
+<time class=post-date datetime=2022-01-15T16:46:32+07:00>15 Jan 2022 at 16:46</time>
 </li>
 <li>One minute read</li>
 </ul>
 </aside>
 <div class=featured_image>
-<a href=https://gavt45.github.io/posts/math/ title=Math>
+<a href=https://gavt45.github.io/posts/calculus/ title="Goodbye, calculus!">
 <img src>
 </a>
 </div>
-<h1 id=mathbb-test>Mathbb test.</h1>
-<p>Hi! Recently I&rsquo;ve added latex support via mathjax $\forall x \in \mathbb{R} : x + 1 \in \mathbb{R}$!</p>
+<h1 id=goodbye-calculus>Goodbye, calculus!</h1>
+<p>Today I passed my calculus exam. 🎉🎉🎉<br>
+So let&rsquo;s prove some theorem at the end!</p>
+<h3 id=dinis-theorem>Dini&rsquo;s theorem</h3>
+<p>If functions $f_n, f$ are continuous and $\forall x: f_n(x) \xrightarrow[n \to \inf]{} f(x) \Rightarrow f_n \rightrightarrows f$<br>
+▶
+let $g_n = f_n - f$. This function decreases monotonically. And $g_n \to 0$.<br>
+Consequently, $\forall x \in [a,b] \ \exists n: 0 \leq g_n &lt; \varepsilon \Rightarrow$ because of continuity,
+$\exists \delta > 0, J_{x} = (x-\delta,x+\delta): \forall t \in J_{x}: 0 \leq g_n(t) &lt; \varepsilon$<br>
+Collection of sets $J_x$ forms an infinite cover of the set $[a,b]$. Consequently, there is finite subset of this collection, that covers set $[a,b]$.<br>
+Let $N = max \lbrace n_i \rbrace$.<br>
+$\forall t \in [a,b] \ \exists J_{x_i}: t \in J_{x_i} \Rightarrow 0 \leq g_N(t) \leq g_{n_i} &lt; \varepsilon$<br>
+Finally: $\forall \varepsilon > 0 \ \exists N \ \forall n > N \ \forall t \in [a,b]: |g_n(t) - 0| &lt; \varepsilon \Rightarrow g_N \rightrightarrows 0 \Rightarrow f_N \rightrightarrows f$ ◀</p>
 </article>
 <section class=post-nav>
 <ul>
 <li>
-<a href=https://gavt45.github.io/posts/russian-test/><img class=icon src=/img/ico/circle-left.svg> Тестовый пост</a>
+<a href=https://gavt45.github.io/posts/math/><img class=icon src=/img/ico/circle-left.svg> Math</a>
 </li>
 <li>
-<a href=https://gavt45.github.io/posts/calculus/>Goodbye, calculus! <img class=icon src=/img/ico/circle-right.svg> </a>
 </li>
 </ul>
 </section>
