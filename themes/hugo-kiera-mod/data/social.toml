@@ -4,7 +4,7 @@
 id = "email"
 url = "mailto:%s"
 title = "Email me"
-icon = "fas fa-envelope"
+icon = "img/ico/email.svg"
 
 [[social_icons]]
 id = "github"

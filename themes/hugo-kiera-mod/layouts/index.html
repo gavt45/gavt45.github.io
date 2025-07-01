@@ -5,22 +5,20 @@
     {{ $pages := where site.RegularPages "Type" "posts" }}
     {{ $paginator := .Paginate $pages }}
     {{ range $index, $page := $paginator.Pages }}
-
-    <li {{if eq $index 0}}class="first" {{end}}>
-      <h1><a href="{{ $page.Permalink }}" title="{{ $page.Title }}">{{ .Title }}</a></h1>
-      {{ partial "aside" . }}
-      {{ if isset $page.Params "images" }}
-        {{ partial "featured_image" .}}
-      {{ end }}
-      <p>{{ .Summary }}</p>
-      {{ if .Truncated }}
-      <a href="{{ .RelPermalink }}">{{ T "readMore" }}</a>
-      {{ end }}
-    </li>
+      <li {{if eq $index 0}}class="first" {{end}}>
+        <h1><a href="{{ $page.Permalink }}" title="{{ $page.Title }}">{{ $page.Title }}</a></h1>
+        {{ partial "aside" $page }}
+        <p>{{ partial "truncated_summary.html" $page }}</p>
+        {{ if $page.Truncated }}
+          <a href="{{ $page.RelPermalink }}">{{ T "readMore" }}</a>
+        {{ end }}
+      </li>
     {{ end }}
   </ul>
 </section>
 
 {{ template "_internal/pagination.html" . }}
+
+{{ partial "mathjax.html" . }}
 
 {{ end }}

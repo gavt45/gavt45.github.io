@@ -1,0 +1,21 @@
+/* Add separation and card style between post cards */
+.post-card {
+  margin-bottom: 1.2em;
+  padding: 0.5em 0.8em;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  background: #fff;
+  border: 1px solid #eee;
+}
+
+.post-card:not(:first-child) {
+  border-top: 3px solid #e0e0e0;
+  margin-top: 1.5em;
+}
+
+/* Hide first heading inside post summary on main page */
+#home .post-summary h1,
+#home .post-summary h2,
+#home .post-summary h3 {
+  display: none;
+} 

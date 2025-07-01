@@ -1,0 +1,21 @@
+@import url(./styles-light.css);
+/* @import url(./styles-dark.css) (prefers-color-scheme: dark); */
+
+/* Add separation between post cards */
+.post-card {
+  margin-bottom: 2.5em;
+  padding-bottom: 1.5em;
+}
+
+.post-separator {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 2em 0;
+}
+
+/* Hide first heading inside post summary on main page */
+#home .post-summary h1,
+#home .post-summary h2,
+#home .post-summary h3 {
+  display: none;
+} 

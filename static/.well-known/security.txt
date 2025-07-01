@@ -1,0 +1,23 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Contact: mailto:andreyt45@gmail.com
+Contact: mailto:gav@secxai.ru
+Expires: 2077-01-01T06:37:00.000Z
+Encryption: https://www.gavt45.ru/.well-known/gpg-key.txt
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEE+ODQ6ZV5J1f3LCXFtHOgTNKwDmkFAmhf/W4ACgkQtHOgTNKw
+DmnIZBAApXkNc+8Umho2d1duFzgmGgqjWWsU/a3LB+3q4+TaG3yt5CCVgyJjdBTa
+jsT6/Ed3JrtdpQAm9RtLmPPGyG5OZoDp5MIKcYHl6al600mU5U+f7CaDVo6SknMS
+C7/K0BNmjz7ywslkfaR+bBaiPz1kiraMUwizEKKu/4ISacMJ77xvzPkhSnMp/ur/
+qJFVfjNBflYmBXW2cQBQIp3zWfxwo7MIobnATOam2q8n72R23QJheYhiXV4uNLza
+RWR6BjE7u3eurq3C1m8H2STjAe5uM5FkKAkCwI6WvIQwWGcQgnrRJrl7t9THAKPC
+sRtnnVsENN+PS+leKK7W1cjHFunZZPXr7JlsP34Ozk/PnWK8C4JO5b63iNOJSv3k
+uN22OobkStJeiUqSUlR3gJCtPYsd1fn9M9z4th1zvNvffYzlIXSJ3+f1Gxz9EN9j
+fVByLLvCoeJHtCGU/IicRw3WdhioGhvYAJwusgCe5JqmwckRxLrrAZbk0hohPqjW
+1cWU3HmchALeCfQ6uIApeXMmEvlEImWrOojsZcW3ymBTPVLs43OF1nGZYqETHcWG
+uLO+PHeK8vmGvkhN1ua32tucjAGTUKp3nrRJA6diY44OMyxJILWxHuKBieaWdrVh
+/FcthzQ0SfEg5+wJQiTMKneiEo+Nj76BxkZ7zVAIYD8L716Pib8=
+=OVoF
+-----END PGP SIGNATURE-----

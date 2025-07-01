@@ -1,0 +1,24 @@
+{{- $summary := .Summary -}}
+{{- $maxLength := 400 -}}
+{{- if gt (len $summary) $maxLength -}}
+  {{- $truncated := substr $summary 0 $maxLength -}}
+  {{- $safeBreak := $maxLength -}}
+  
+  {{- /* Find last safe break point */ -}}
+  {{- $words := split $truncated " " -}}
+  {{- $wordCount := len $words -}}
+  {{- if gt $wordCount 1 -}}
+    {{- $lastWordIndex := sub $wordCount 1 -}}
+    {{- $lastWord := index $words $lastWordIndex -}}
+    {{- /* If last word starts with $ or \, remove it */ -}}
+    {{- if or (hasPrefix $lastWord "$") (hasPrefix $lastWord "\\") -}}
+      {{- $safeBreak = len (delimit (first (sub $wordCount 1) $words) " ") -}}
+    {{- else -}}
+      {{- $safeBreak = len (delimit $words " ") -}}
+    {{- end -}}
+  {{- end -}}
+  
+  {{- substr $summary 0 $safeBreak | safeHTML -}}...
+{{- else -}}
+  {{- $summary | safeHTML -}}
+{{- end -}} 

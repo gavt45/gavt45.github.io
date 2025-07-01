@@ -1,28 +1,37 @@
-baseURL = 'https://gavt45.github.io/'
+baseURL = 'https://www.gavt45.ru/'
 languageCode = 'en-us'
 title = 'Andrey Gumirov'
 theme = 'hugo-kiera-mod'
 
-copyright = '© 2022 by Andrey Gumirov. All rights reserved.'
-
-[author]
-    name = "Andrey Gumirov"
-    github = "gavt45"
-    #twitter = "gavt45"
-    instagram = "_gavt45_"
-    telegram = "gavt45"
+copyright = '© 2025 by Andrey Gumirov. All rights reserved.'
 
 [params]
     tagline = "Student, developer and security researcher"
     description = "Gav's blog"
     #images = [""] #This is used for opengraph/twitter cards.
-    customCSS = []  #Optional Customised CSS
+    customCSS = ["/css/custom.css"]  #Optional Customised CSS
     #favicon = ""
     #utterancesRepo = "username/repository"
     #utterancesIssueTerm = "pathname"
-    #homepageLength = 10
+    homepageLength = 10
     #commentAutoload = true  #This mean reader don't need click, disqus comment autoload
     #mathjax = true #Enable display of mathematics using mathjax (LaTeX syntax)
     #katex = true #Enable display of mathematics using katex (Faster LaTeX rendering)
     #google_fonts = ["Staatliches"] # Adds additional google fonts
     #disableDarkModeCSS = false # disables css style for users using dark-mode
+
+    [params.author]
+        name = "Andrey Gumirov"
+        github = "gavt45"
+        telegram = "gavt45"
+        email = "andreyt45@gmail.com"
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
+    [markup.highlight]
+        noClasses = false
+
+[summary]
+    length = 200
